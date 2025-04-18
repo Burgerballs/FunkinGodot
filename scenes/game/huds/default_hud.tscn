@@ -31,7 +31,7 @@ expand_margin_bottom = 2.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_ku58i"]
 font = ExtResource("5_n0fs2")
-font_size = 22
+font_size = 18
 outline_size = 8
 outline_color = Color(0, 0, 0, 1)
 
@@ -43,7 +43,7 @@ outline_color = Color(0.1, 0.1, 0.1, 0.75)
 
 [sub_resource type="LabelSettings" id="LabelSettings_odcbh"]
 font = ExtResource("5_n0fs2")
-font_size = 24
+font_size = 18
 outline_size = 8
 outline_color = Color(0, 0, 0, 1)
 
@@ -201,7 +201,6 @@ unique_name_in_owner = true
 
 [node name="song_label" type="Label" parent="."]
 unique_name_in_owner = true
-modulate = Color(1, 1, 1, 0.74902)
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
