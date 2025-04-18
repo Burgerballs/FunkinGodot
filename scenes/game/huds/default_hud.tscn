@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://3diy2p3nknpi" path="res://scenes/game/note_fields/4_lanes.tscn" id="2_0rw2j"]
 [ext_resource type="PackedScene" uid="uid://bx6f5ldidoswy" path="res://scenes/game/notes/note_splash.tscn" id="3_1ubyb"]
 [ext_resource type="Script" uid="uid://nb701n0rtr0l" path="res://scenes/game/health_bar.gd" id="4_spp67"]
-[ext_resource type="FontFile" uid="uid://dipxuxqymub2c" path="res://assets/fonts/vcr-jp.ttf" id="5_gpwne"]
+[ext_resource type="FontFile" uid="uid://bwdbpvqa8g3me" path="res://assets/fonts/vcr-legacy.ttf" id="5_n0fs2"]
 [ext_resource type="Texture2D" uid="uid://cn6fmp8et8ktw" path="res://assets/game/skins/default/ratings/marvelous.png" id="6_mktee"]
 [ext_resource type="Texture2D" uid="uid://ds3g63uwcq4jw" path="res://assets/game/skins/default/combo.png" id="7_7svf3"]
 [ext_resource type="FontFile" uid="uid://b5sq5n4iqxrih" path="res://assets/fonts/funkin.ttf" id="8_in2av"]
@@ -24,18 +24,14 @@ border_width_top = 6
 border_width_right = 6
 border_width_bottom = 6
 border_color = Color(0, 0, 0, 1)
-corner_radius_top_left = 12
-corner_radius_top_right = 12
-corner_radius_bottom_right = 12
-corner_radius_bottom_left = 12
-expand_margin_left = 4.0
-expand_margin_top = 4.0
-expand_margin_right = 4.0
-expand_margin_bottom = 4.0
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_ku58i"]
-font = ExtResource("5_gpwne")
-font_size = 14
+font = ExtResource("5_n0fs2")
+font_size = 22
 outline_size = 8
 outline_color = Color(0, 0, 0, 1)
 
@@ -46,8 +42,8 @@ outline_size = 18
 outline_color = Color(0.1, 0.1, 0.1, 0.75)
 
 [sub_resource type="LabelSettings" id="LabelSettings_odcbh"]
-font = ExtResource("5_gpwne")
-font_size = 14
+font = ExtResource("5_n0fs2")
+font_size = 24
 outline_size = 8
 outline_color = Color(0, 0, 0, 1)
 

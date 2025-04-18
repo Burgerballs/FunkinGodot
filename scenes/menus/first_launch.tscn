@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dasf7d5k8p30f"]
 
-[ext_resource type="Script" path="res://scenes/interface/alphabet.gd" id="1_8fdwr"]
-[ext_resource type="Script" path="res://scenes/menus/first_launch.gd" id="1_tlkk5"]
+[ext_resource type="Script" uid="uid://b6ydf4mbyjiwc" path="res://scenes/interface/alphabet.gd" id="1_8fdwr"]
+[ext_resource type="Script" uid="uid://hukwrwmjwblw" path="res://scenes/menus/first_launch.gd" id="1_tlkk5"]
 
 [node name="first_launch" type="Node2D"]
 position = Vector2(640, 360)

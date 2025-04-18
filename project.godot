@@ -45,6 +45,10 @@ window/subwindows/embed_subwindows=false
 window/stretch/mode="canvas_items"
 window/vsync/vsync_mode=0
 
+[dotnet]
+
+project/assembly_name="Friday Night Funkin-"
+
 [editor]
 
 movie_writer/mjpeg_quality=1.0
